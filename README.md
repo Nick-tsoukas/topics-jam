@@ -1,0 +1,9 @@
+- [x] npx create-nuxt-app nuxt-netlifycms-articles
+- [x] remove tailwind, add
+- [x] create repo, and push to github
+- [x] deploy to netlify
+- [x] enable netlify identity
+- [x] add netlifyCms
+- [x] add netlify cms and start script
+- [ ] npm i concurrently -D
+- [ ] edit dev script "concurrently \"npm run dev\" \"npm run cmsProxy\""
