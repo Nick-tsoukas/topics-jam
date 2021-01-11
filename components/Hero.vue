@@ -28,13 +28,23 @@
 
 <script>
   export default {
-
+//<link rel="preconnect" href="https://fonts.gstatic.com">
+  head() {
+      return {
+        link: [
+          {
+            rel: 'stylesheet',
+            href: 'https://fonts.googleapis.com/css2?family=Monoton&display=swap'
+          }
+        ]
+      }
+    }
   }
 
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
   .star {
     background-image: url('../static/images/spacelights1.jpg')
   }

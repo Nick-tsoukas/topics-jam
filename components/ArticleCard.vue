@@ -6,7 +6,7 @@
         <img class="h-full w-full object-fill" :src="article.image || '/images/chem.jpg' " alt="blog">
       </div>
       <div class="flex flex-col p-4">
-        <p class="mb-4 font-semibold">Aug <span style="color: #02ff9d">|</span> 14</p>
+        <p class="mb-4 font-semibold">Aug <span style="color: #02ff9d; text-shadow: 1px 1px 1px #000000, 1px 1px 0px rgba(0,0,0,0.15);">|</span> 14</p>
         <h1 class="text-lg font-bold mb-4 ">This is the Title</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
